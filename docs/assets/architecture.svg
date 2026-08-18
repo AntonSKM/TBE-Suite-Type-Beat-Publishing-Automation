@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5f8ff"/>
+      <stop offset="1" stop-color="#f3efff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#24324a" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="620" rx="32" fill="url(#bg)"/>
+  <text x="70" y="78" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#16213a">TBE Suite — high-level architecture</text>
+  <text x="70" y="112" font-family="Arial, sans-serif" font-size="18" fill="#6b7690">Public portfolio view — production implementation intentionally private</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="190" width="250" height="150" rx="22" fill="#ffffff" stroke="#dbe4f3"/>
+    <text x="195" y="245" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#3256e8">React UI</text>
+    <text x="195" y="280" text-anchor="middle" font-family="Arial" font-size="16" fill="#6b7690">Workflow + operations</text>
+    <text x="195" y="308" text-anchor="middle" font-family="Arial" font-size="16" fill="#6b7690">Calendar + metadata</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="430" y="190" width="250" height="150" rx="22" fill="#ffffff" stroke="#dbe4f3"/>
+    <text x="555" y="245" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#5d50e8">FastAPI</text>
+    <text x="555" y="280" text-anchor="middle" font-family="Arial" font-size="16" fill="#6b7690">Auth + application state</text>
+    <text x="555" y="308" text-anchor="middle" font-family="Arial" font-size="16" fill="#6b7690">Integration boundary</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="790" y="190" width="250" height="150" rx="22" fill="#ffffff" stroke="#dbe4f3"/>
+    <text x="915" y="245" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#2f9b75">Celery + Redis</text>
+    <text x="915" y="280" text-anchor="middle" font-family="Arial" font-size="16" fill="#6b7690">Background workers</text>
+    <text x="915" y="308" text-anchor="middle" font-family="Arial" font-size="16" fill="#6b7690">Progress + cancellation</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1150" y="190" width="180" height="150" rx="22" fill="#ffffff" stroke="#dbe4f3"/>
+    <text x="1240" y="245" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700" fill="#26324a">External</text>
+    <text x="1240" y="280" text-anchor="middle" font-family="Arial" font-size="15" fill="#6b7690">YouTube</text>
+    <text x="1240" y="305" text-anchor="middle" font-family="Arial" font-size="15" fill="#6b7690">BeatStars</text>
+    <text x="1240" y="330" text-anchor="middle" font-family="Arial" font-size="15" fill="#6b7690">Google OAuth</text>
+  </g>
+
+  <path d="M320 265 H430" stroke="#9eaae0" stroke-width="5" stroke-linecap="round"/>
+  <polygon points="422,255 440,265 422,275" fill="#9eaae0"/>
+  <path d="M680 265 H790" stroke="#9eaae0" stroke-width="5" stroke-linecap="round"/>
+  <polygon points="782,255 800,265 782,275" fill="#9eaae0"/>
+  <path d="M1040 265 H1150" stroke="#9eaae0" stroke-width="5" stroke-linecap="round"/>
+  <polygon points="1142,255 1160,265 1142,275" fill="#9eaae0"/>
+
+  <g filter="url(#shadow)">
+    <rect x="430" y="420" width="250" height="120" rx="22" fill="#ffffff" stroke="#dbe4f3"/>
+    <text x="555" y="470" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#3d4b67">Persistent state</text>
+    <text x="555" y="503" text-anchor="middle" font-family="Arial" font-size="15" fill="#6b7690">Users · channels · jobs · schedules</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="790" y="420" width="250" height="120" rx="22" fill="#ffffff" stroke="#dbe4f3"/>
+    <text x="915" y="470" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#3d4b67">Media toolchain</text>
+    <text x="915" y="503" text-anchor="middle" font-family="Arial" font-size="15" fill="#6b7690">FFmpeg · Chromium · yt-dlp</text>
+  </g>
+
+  <path d="M555 340 V420" stroke="#b1bcdf" stroke-width="4" stroke-linecap="round"/>
+  <path d="M915 340 V420" stroke="#b1bcdf" stroke-width="4" stroke-linecap="round"/>
+</svg>
