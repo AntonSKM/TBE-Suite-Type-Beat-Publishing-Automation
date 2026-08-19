@@ -1,4 +1,4 @@
-# TBE Suite — Music Publishing Workflow Automation
+# TBE Suite — Type Beat Publishing Workflow Automation
 
 > A production workflow platform I built for running high-volume YouTube type-beat channels: asset preparation, video rendering, thumbnail collection, BeatStars links, metadata, YouTube sync, scheduling and publishing in one place.
 
