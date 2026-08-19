@@ -13,7 +13,7 @@
 
 I’m a **2× Billboard-charting music producer** and have worked with artists including **NBA YoungBoy**. As part of my producer business, I have simultaneously been managing **60+ YouTube type-beat channels** for more than **1.5 years** now, each targeting different artist keywords with daily uploads.
 
-Doing that manually meant repeating the same production, metadata, link-management and scheduling work hundreds of times, which is why I built **TBE Suite** around my real workflow so those steps could become one coordinated system instead of a collection of repetitive manual tasks. In my own day-to-day use it removes roughly **99% of the manual work** that used to go into preparing and maintaining these channels.
+Doing that manually meant repeating the same production, metadata, link-management and scheduling work hundreds of times, which is why I built **TBE Suite (Type Beat Empire Suite)** around my real workflow so those steps could become one coordinated system instead of a collection of repetitive manual tasks. In my own day-to-day use it removes roughly **99% of the manual work** that used to go into preparing and maintaining these channels.
 
 <p align="center">
   <img src="docs/screenshots/dashboard.png" alt="TBE Suite command center with multiple channels, storage, BeatStars state and publishing activity" width="100%" />
